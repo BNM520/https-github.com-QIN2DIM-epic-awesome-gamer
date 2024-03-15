@@ -21,8 +21,8 @@ from epic_games.player import EpicPlayer
 from utils import from_dict_to_model, AgentG
 
 # fmt:off
-URL_CLAIM = "https://store.epicgames.com/en-US/free-games"
-URL_LOGIN = f"https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl={URL_CLAIM}"
+URL_CLAIM = u"https://store.epicgames.com/en-US/free-games"
+URL_LOGIN = u"https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=" + URL_CLAIM
 URL_PROMOTIONS = "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions"
 URL_PRODUCT_PAGE = "https://store.epicgames.com/en-US/p/"
 URL_PRODUCT_BUNDLES = "https://store.epicgames.com/en-US/bundles/"
